@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links Naka</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #fff9e6;
+            text-align: center;
+            font-family: 'Itim', cursive;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border: 3px solid #ff6699;
+            margin: 20px 0;
+        }
+        h2 {
+            color: #ff6699;
+            font-size: 2em;
+        }
+        p {
+            color: #555;
+            font-size: 1.2em;
+        }
+        .btn {
+            display: block;
+            width: 80%;
+            margin: 10px auto;
+            padding: 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: white;
+            font-size: 1.2em;
+        }
+        .donate { background-color: #ffcccc; color: #ff6699; }
+        .discord { background-color: #cc99ff; }
+        .twitch { background-color: #99ccff; }
+        .tiktok { background-color: #000000; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Thanks for following! ⭐</h2>
+        <p>เห็นหนูนะคะ ขอบคุณที่ติดตามน้าาาา </p>
+
+        <img src="cat.png" alt="Cat Image" class="profile-img">
+
+        <a href="https://tipme.in.th/5f0bbebc2769584ecbd4db6e" class="btn donate">DONATE </a>
+        <a href="#" class="btn discord">DISCORD </a>
+        <a href="#" class="btn twitch">TWITCH </a>
+        <a href="https://www.tiktok.com/@jawmeow03" class="btn tiktok">TIKTOK </a>
+    </div>
+</body>
+</html>
